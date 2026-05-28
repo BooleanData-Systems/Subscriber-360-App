@@ -64,9 +64,8 @@ After binding the 5 references, `BUILD_PIPELINE()` automatically generates 15 Go
 
 ## Permissions
 
-- **SELECT** on 5 bound Silver tables
-- **IMPORTED PRIVILEGES ON SNOWFLAKE DB** — for Cortex AI Complete function (AI/ML tab)
-- All Gold tables are created internally. No data leaves your account.
+- **cortex_user database role** — Required for Cortex AI Complete function (AI/ML Predictions tab). Granted via the Permissions tab in Snowsight.
+- **SELECT** on 5 bound Silver tables — All Gold tables are created internally. No data leaves your account.
 
 ## Version History
 
